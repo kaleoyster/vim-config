@@ -18,4 +18,10 @@ Plugin Manager: Plug
 12. vim-flake
 13. ctrlp
 
+## Installation
 
+Run: 
+```
+ cd vim-config 
+ cp .vimrc ~/.
+```
