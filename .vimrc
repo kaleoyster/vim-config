@@ -65,21 +65,6 @@ call plug#end()
     nnoremap <C-L> <C-W><C-L>
     nnoremap <C-H> <C-W><C-H>
 
-" Enable folding
-    set foldmethod=indent
-    set foldlevel=87
-    nnoremap <space> za
-    au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
-    
-    let g:SimpylFold_docstring_preview=1
-
 " Make python code look pretty
     let python_highlight_all=1
 
