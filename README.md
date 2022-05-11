@@ -1,7 +1,10 @@
 # vim-config
+The .vimrc file contains a list of regularly used customization plugins in python development for vim editor.
 
-The .vimrc file contains customization for vim editor. 
 Plugin Manager: Plug
+
+## Description
+vim-config provides 
 
 ## Plugins
 1. vim-sensible
@@ -18,10 +21,17 @@ Plugin Manager: Plug
 12. vim-flake
 13. ctrlp
 
-## Installation
-
-Run: 
+## Get started
+Three simple steps to get started:
+1. Clone the vim-config
 ```
+ git clone https://github.com/kaleoyster/vim-config
+```
+2. Change directory
+````
  cd vim-config 
+````
+3. Replace exisiting .vimrc file with vim-config .vimrc
+```
  cp .vimrc ~/.
 ```
